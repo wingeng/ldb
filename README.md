@@ -71,11 +71,11 @@ defaults to 24)
 # Example from emacs
 
 The ldb.el file contains the elisp to track the debug'ed file using the
-output of the debugger [ldb:@<file>:<line>].
+output of the debugger [ldb:@file:line-no].
 
 To use, eval the ldb.el file and start the debugging from the shell
 
 <pre>
 
 Emacs window: 
-![alt text](http://wingeng.github.io/photos/ldb-emacs.png)
+![emacs-window photo](http://wingeng.github.io/photos/ldb-emacs.png)
