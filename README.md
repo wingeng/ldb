@@ -65,8 +65,10 @@ inside bar
 </pre>
 
 You'll see the 'context' lines.  The default default number of lines is
-half of the terminal lines. (Note: LINES must be exported, otherwise it
-defaults to 24)
+half of the terminal lines. The upper part of the terminal will contain the
+output from your lua program, the lower part the source lines.
+
+(Note: LINES must be exported, otherwise it defaults to 24)
 
 # Example from emacs
 
