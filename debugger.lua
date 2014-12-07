@@ -197,7 +197,6 @@ local function output_file_lines (fname, lineToPrint)
    local lineNo = 1
 
    lower_range, upper_range = context_range(lineToPrint)
-   print("lower_range: ", lower_range, upper_range)
 
    local sep = ""
    local lines_printed = 0
