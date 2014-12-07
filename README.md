@@ -75,7 +75,6 @@ output of the debugger [ldb:@file:line-no].
 
 To use, eval the ldb.el file and start the debugging from the shell
 
-<pre>
-
 Emacs window: 
+
 ![emacs-window photo](http://wingeng.github.io/photos/ldb-emacs.png)
