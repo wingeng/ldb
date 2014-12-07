@@ -1,10 +1,12 @@
 ;;
 ;; ldb Lua Debugger handler for emacs
 ;;
-;; This is a front end to the edo-debugger.lua file to
+;; This is a front end to the debugger.lua file to
 ;; track the filename:line-number markers spat out
 ;; by the debugger to allow for full screen debugging
 ;; under emacs
+;;
+;; Copyright (c) 2014 Wing Eng
 ;;
 
 ;;
@@ -118,29 +120,4 @@ edo-lua debugger filename:line-no markers"
 		 'ldb-comint-output-filter-function))
 
 
-;; (get-file-buffer "test-buff")
-;; (get-buffer-window )
-;; (get-other-frame)
-;; (other-window 1)
-;; (other-window -1)
-;; (split-window 0)
-;; (window-buffer)
-
-;; (defun ldb-open (filename)
-;;   (find-file filename)
-;;   (other-window -1)
-;;   )
-;; (one-window-p)
-;; (next-window)
-
-
-;; (progn
-;;   (if (one-window-p)
-;;     (progn
-;;       (split-window-below)
-;;       (other-window 1)
-;;       (ldb-open "test-buff")))
-;;   (progn
-;;     (other-window 1)
-;;     (ldb-open "test-buff")))
-    
+(ldb-add-comint-hook)
