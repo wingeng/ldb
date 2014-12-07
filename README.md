@@ -41,7 +41,7 @@ function foo ()
 end
 </pre>
 
-# Example from terminal
+## Example from terminal
 
 Try debugging the file "test-file.lua".
 
@@ -73,7 +73,8 @@ defaults to 24)
 The ldb.el file contains the elisp to track the debug'ed file using the
 output of the debugger [ldb:@file:line-no].
 
-To use, eval the ldb.el file and start the debugging from the shell
+To use, eval the ldb.el file and start the debugging from the shell. (I
+assume you know how to do this)
 
 Emacs window: 
 
